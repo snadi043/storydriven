@@ -11975,6 +11975,7 @@ button[type="submit"] {
     padding-top: 50px;
     padding-bottom: 75px;
     position: relative;
+    background: #936d33;
 }
 .register-form:before {
     content: "";
@@ -11995,7 +11996,7 @@ button[type="submit"] {
     max-width: 900px !important;
 }
 .register-form h2,
-.register-form p.large {
+.register-form p{
     font-size: 40px !important;
     line-height: 48px !important;
     margin-bottom: 20px;
@@ -12006,8 +12007,8 @@ button[type="submit"] {
 }
 @media screen and (max-width: 768px) {
     .register-form h2,
-    .register-form p.large {
-        font-size: 30px !important;
+    .register-form p{
+        font-size: 14px!important;
         line-height: 35px !important;
         margin-bottom: 20px;
     }
@@ -12017,6 +12018,7 @@ button[type="submit"] {
     line-height: 29px;
     color: #202117;
     margin-bottom: 35px;
+    text-align: center;
 }
 @media screen and (max-width: 768px) {
     .register-form h3 {

@@ -1,33 +1,44 @@
-.register-form {
-  padding-top: 50px;
-  padding-bottom: 75px;
-  position: relative;
-}
+
 
 .register-form h2 {
-  font-size: 40px!important;
-  line-height: 48px!important;
-  margin-bottom: 20px;
-  color: #e5f0f0;
-  text-transform: uppercase;
   text-align: center!important;
 }
 
-.register-form p {
-  font-size: 40px!important;
-  line-height: 48px!important;
-  margin-bottom: 20px;
-  color: #e5f0f0;
-  text-transform: uppercase;
-  text-align: center!important;
+input{
+    margin: 0;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: inherit;
+    width: 500px;
 }
+label{
+display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    line-height: 24px!important;
+    vertical-align: middle;
+    margin-bottom: 0!important;
+}
+.content {
+  padding: 0px 200px;
+  display: flex;
+  text-align: center;
+}
+#left,
+#right {
+  padding: 0.5rem;
+  flex-grow: 1;
+  text-align: center;
+}
+.form-footer{
+  text-align: center;
+  display: block;
+  margin: 50px;
+}
+// .button {
+//   margin-top: 10px;
+//   justify-content: flex-end;
+//   align-items: baseline;
+// }
 
-register-form h3 {
-  font-size: 24px;
-  line-height: 29px;
-  color: #202117;
-  margin-bottom: 35px;
-  font-weight: 500;
-  font-family: inherit;
-  text-align: center!important;
-}
+.buttonHolder{ text-align: center; }
