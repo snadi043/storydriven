@@ -8,12 +8,20 @@ import { ImageapiService } from '../imageapi.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+
+  // Dependency Injection in the constructor lifecycle hook
+
+
   image: any;
   constructor(private imageApiService: ImageapiService) { }
+
+  //  Initialization of the images as soon as the componet gets executed during run time
 
   ngOnInit(): void {
     this.getImage('https://staging.maracielo.com/gallery/');
   }
+
+  //  Using observables to check continuosly for changes in the data
 
   getImage(url: string): void {
     console.log('hello world');
