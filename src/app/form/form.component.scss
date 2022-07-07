@@ -4,7 +4,16 @@
   position: relative;
 }
 
-.register-form h2, .register-form p.large {
+.register-form h2 {
+  font-size: 40px!important;
+  line-height: 48px!important;
+  margin-bottom: 20px;
+  color: #e5f0f0;
+  text-transform: uppercase;
+  text-align: center!important;
+}
+
+.register-form p {
   font-size: 40px!important;
   line-height: 48px!important;
   margin-bottom: 20px;

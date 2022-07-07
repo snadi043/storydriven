@@ -2,17 +2,22 @@
   height: 650px;
   width: 100vw;
 }
+.image{
+height: 750px;
+margin: 0px -16px;
+float: right;
+}
 .content {
   background-color: #e4dbcc;
   padding: 0.5rem;
   display: flex;
 }
 .container{
-  max-width: 1400px!important;
+  max-width: 1440px!important;
   text-align: center!important;
   background-color: #202117;
   padding: 40px 55px 40px 55px;
-  margin-top: -4px;
+  // margin-top: -4px;
 }
 
 #left,
@@ -44,4 +49,10 @@ p{
     line-height: 24px;
     font-weight: 500;
     font-family: Lato,sans-serif!important;
+}
+.content p{
+  color: #494e61;
+}
+.content h4{
+  color: #936d33!important;
 }
