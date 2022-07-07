@@ -7,9 +7,25 @@
   padding: 0.5rem;
   display: flex;
 }
+.container{
+  max-width: 1400px!important;
+  text-align: center!important;
+  background-color: #202117;
+  padding: 40px 55px 40px 55px;
+  margin-top: -4px;
+}
 
 #left,
 #right {
   padding: 0.5rem;
   flex-grow: 1;
+}
+h2{
+  font-size: 30px;
+    line-height: 36px;
+    color: #e4dbcc;
+    margin-bottom: 15px;
+    font-family: Lato,sans-serif;
+    text-transform: uppercase;
+    text-align: center!important;
 }
