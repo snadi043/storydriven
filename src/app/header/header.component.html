@@ -1,1 +1,69 @@
-<img class="images" src="/assets/images/header.png" alt="header-image"/>
+<nav class="navbar navbar-expand-lg fixed-top justify-content-center" (scroll)="onWindowScroll();">
+  <a class="navbar-brand d-flex w-40 mr-auto" href="/">
+    <img src="../../assets/images/MCDS_Web_navLogo.svg" title="Mar A Cielo" alt="Mar A Cielo" class="mara">
+    <img src="../../assets/images/MCDS_Web_E&V_navLogo_RedAmpersand.svg" title="Engel and Volkers"
+      alt="Enger and Volkers" class="engel">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse w-100" id="navbarSupportedContent">
+    <ul class="navbar-nav w-100 justify-content-center">
+      <li class="nav-item ">
+        <a class="nav-link" href="/location/?lang=en">
+          Location
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/cabo-del-sol/?lang=en">Cabo Del Sol</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/residences/?lang=en">
+          Residences
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/floorplans/">Floorplans</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/team/?lang=en">
+          Team
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/gallery/?lang=en">
+          Gallery
+        </a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+      <li class="language-switcher">
+        <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown">
+          <ul>
+            <li tabindex="0"
+              class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-dropdown">
+              <a href="#" class="js-wpml-ls-item-toggle wpml-ls-item-toggle"><span
+                  class="wpml-ls-native">English</span></a>
+              <ul class="wpml-ls-sub-menu">
+                <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-es wpml-ls-last-item">
+                  <a href="https://staging.maracielo.com/?lang=es" class="wpml-ls-link"><span
+                      class="wpml-ls-display">Spanish</span></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item social-nav">
+        <a href="https://www.facebook.com/MaraCieloCabo/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/MaraCieloCabo/" target="_blank"><i class="fa fa-instagram"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link enquire-btn" href="#register-form">
+          Inquire
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

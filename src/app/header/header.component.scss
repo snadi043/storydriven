@@ -1,12 +1,5 @@
-.images{
-width: 100vw;
-// // background: #4a4a4a!important;
-// // background-size: cover!important;
-// // background-position: 50%!important;
-// // position: relative;
-// min-height: 500px;
-// overflow: hidden;
-// max-height: 100vh;
-margin: -4px -2px;;
-
+nav.grey-nav, nav.permanent-grey {
+    background: #202117;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.4);
+    box-shadow: 0 3px 6px rgba(0,0,0,.4);
 }
